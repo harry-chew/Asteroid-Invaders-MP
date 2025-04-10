@@ -489,7 +489,7 @@ Transform:
   m_GameObject: {fileID: 619394800}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10.14, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -618,6 +618,7 @@ GameObject:
   - component: {fileID: 1577002922}
   - component: {fileID: 1577002924}
   - component: {fileID: 1577002923}
+  - component: {fileID: 1577002925}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -682,7 +683,7 @@ MonoBehaviour:
   NetworkConfig:
     ProtocolVersion: 0
     NetworkTransport: {fileID: 1577002923}
-    PlayerPrefab: {fileID: 0}
+    PlayerPrefab: {fileID: 7632638311269644293, guid: 55f1af7fe7e06c049941295f01ae30f6, type: 3}
     Prefabs:
       NetworkPrefabsLists:
       - {fileID: 11400000, guid: 965d5a73d62e31447914a7cb8761e946, type: 2}
@@ -704,6 +705,18 @@ MonoBehaviour:
     OldPrefabList: []
   RunInBackground: 1
   LogLevel: 1
+--- !u!114 &1577002925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577002921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5662b838b6358204db4c0db8e620be86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2093667399
 GameObject:
   m_ObjectHideFlags: 0
