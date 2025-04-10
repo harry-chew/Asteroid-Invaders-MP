@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 595563233
+  GlobalObjectIdHash: 1403413475
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -187,6 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveForce: 0.518
   moveForceMultiplier: 1000
+  bulletPrefab: {fileID: 6853377309029913351, guid: 40c2efa323d0fca4b9ad7f2a9c718602, type: 3}
 --- !u!50 &4265107320314547598
 Rigidbody2D:
   serializedVersion: 4
